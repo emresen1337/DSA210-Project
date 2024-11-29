@@ -1,8 +1,11 @@
 # DSA210-Project
 
 ## Project Description
-This project investigates the hypothesis: “There is a correlation between daily screen time and active energy expenditure.”
-In an increasingly digital world, screen time is a very common part of our daily routines. Simultaneously, health and wellness are heavily influenced by physical activity. Understanding the relationship between these variables could provide valuable insights into lifestyle balance and wellness.
+This project explores the relationship between daily screen time and active energy expenditure. The hypotheses for this investigation are:
+	•	Null Hypothesis (H₀): There is no correlation between daily screen time and active energy expenditure.
+	•	Alternative Hypothesis (H₁): There is a significant correlation between daily screen time and active energy expenditure.
+
+In today’s digital world, screen time is a common part of everyday life. At the same time, physical activity plays a crucial role in maintaining health and wellness. By analyzing the relationship between these factors, this project aims to provide valuable insights into achieving a balanced and healthy lifestyle.
 
 To explore this hypothesis, I will analyze data collected from my phone’s and laptop’s screen time trackers alongside active energy data from my health app.
 
