@@ -2,6 +2,7 @@
 
 ## Project Description
 This project explores the relationship between daily screen time and active energy expenditure. The hypotheses for this investigation are:
+
   •	Null Hypothesis (H₀): There is no correlation between daily screen time and active energy expenditure.
 
   •	Alternative Hypothesis (H₁): There is a significant correlation between daily screen time and active energy expenditure.
