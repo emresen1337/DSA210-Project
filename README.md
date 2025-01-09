@@ -27,7 +27,7 @@ In a digital world where screen time has become a central part of daily life, un
 
 ## **Data Cleaning and Preprocessing**
 
-To ensure consistency in our analysis, we performed the following modifications to the CSV files:
+To ensure consistency in our analysis, I performed the following modifications to the CSV files:
 
 1. **Screen Time CSV:**
    - Kept only the `date` and `total_screen_time_minutes` columns, removing unnecessary fields.
@@ -44,13 +44,28 @@ To ensure consistency in our analysis, we performed the following modifications 
 
 ## **Exploratory Data Analysis (EDA)**
 
-### **Trends Over Time:**
-- **Daily Screen Time:** Fluctuated between **100 and 600+ minutes**, with some outliers indicating very high usage days.
-- **Daily Active Energy:** Varied from less than **100 kcal** (low activity/rest days) to over **400 kcal** on active days.
+To better understand the relationship between screen time and active energy, I performed the following visualizations:
 
-### **Patterns:**
-- No strong weekly cycles in screen time or active energy.
-- Minor increases in screen time during weekends, though not always accompanied by increased activity.
+### **1. Daily Trends Over Time:**
+- **Screen Time Plot:** A line plot showing daily total screen time (in minutes). This highlighted daily fluctuations, with values ranging from **100 to 600+ minutes**. Peaks indicated potential "binge" usage days.
+- **Active Energy Plot:** A line plot for daily active energy (in kcal). This revealed rest days with **less than 100 kcal burned** and active days with **over 400 kcal**.
+- **Insights:** While both metrics fluctuated over time, there were no immediately obvious cyclical patterns.
+
+### **2. Scatter Plot: Screen Time vs. Active Energy:**
+- A scatter plot was used to visualize the relationship between screen time and active energy for each day.
+- **Insights:** There was no clear trend or strong clustering in the plot. The points were widely scattered, suggesting only a weak relationship.
+
+### **3. Correlation Coefficient Calculation:**
+- Both **Pearson** (linear) and **Spearman** (monotonic) correlation coefficients were computed.
+- Results indicated a **weak negative correlation** with high p-values, meaning the correlations were **not statistically significant**.
+
+### **4. Weekly Averages:**
+- To smooth out daily fluctuations, the data was resampled to compute weekly averages.
+- A line plot showed that **screen time** was relatively high during the last week of December, while **active energy** dipped during the same period.
+
+### **5. Workday vs. Weekend Comparison:**
+- A bar chart was plotted to compare average screen time and active energy during workdays vs. weekends.
+- **Insights:** There was minimal difference between workdays and weekends in terms of screen time and active energy, suggesting consistent digital habits throughout the week.
 
 ---
 
@@ -97,4 +112,3 @@ To ensure consistency in our analysis, we performed the following modifications 
   - **Additional Metrics:** Include variables such as step count, workout logs, or heart rate data for deeper insights.
 
 ---
-
