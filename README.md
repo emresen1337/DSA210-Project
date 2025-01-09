@@ -1,7 +1,3 @@
-
-
----
-
 # **DSA210-Project**
 
 ## **Project Description**
